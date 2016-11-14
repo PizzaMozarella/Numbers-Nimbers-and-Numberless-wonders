@@ -9,11 +9,11 @@ int main()
 	int j = 0;
 	cout << "Players , tell me your names!" << endl;
 	cin >> name1 >> name2;
-	for (i = 0; 9; ++i)
+	for (i = 0;i <10; ++i)
 	{
 		for (j = i; j < 10; ++j)
 		{
-			a[i][j] = true;
+			cell[i][j] = true;
 		}
 	}
 	for (i = 1; i < 9; ++i)
